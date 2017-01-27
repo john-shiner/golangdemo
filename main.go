@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(vals[0].Plus(b))    // 16 = 11 + 5
 	fmt.Println(vals[1].Times(a))   // 81 = 9 * 9
 	fmt.Println(vals[0].Times(4))   // 44 = 11 * 4
-	fmt.Println(z.Times(3).Plus(4)) // 99 = 33 * 3
+	fmt.Println(z.Times(3).Plus(4)) // 103 = (33 * 3) + 4
 
 	zz := val.NewVal(7)
 	HypotSquared := val.NewVal(a*a + b*b)
