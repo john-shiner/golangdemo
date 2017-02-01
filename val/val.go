@@ -6,12 +6,13 @@ type Val struct {
 	a int
 }
 
-/***********
-type interface Operator {
+/******
+type Value interface  {
 	(c *Val) Plus(b int) int;
-	(c *Val) Times(b int) int
+	(c *Val) Times(b int) int;
+	(c *Val) NewValue(prop string, value string);
 }
-************/
+********/
 
 func NewVal(x int) Val {
 	return Val{a: x}
